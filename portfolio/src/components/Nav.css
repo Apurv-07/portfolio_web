@@ -1,0 +1,38 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container .logo {
+    color: red;
+}
+.navbar-container ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar-container button {
+    display: none;
+    margin-left: auto;
+}
+.mob-links-container .mob-links {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-container ul {
+        display: none;
+    }
+    .mob-links-container .mob-links {
+        display: block;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        left: 0px;
+        background: orange;
+    }
+    .navbar-container button {
+        display: block;
+    }
+}
