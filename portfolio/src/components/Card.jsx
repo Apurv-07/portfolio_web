@@ -11,12 +11,7 @@ function Card() {
 
         <div class="ag-courses-item_title">
           UI/Web&amp;Graph design for teenagers 11-17&#160;years old
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          
-        </div>
+        </div>       
       </a>
     </div>
 
@@ -28,10 +23,7 @@ function Card() {
           UX/UI Web-Design&#160;+ Mobile Design
         </div>
 
-        <div class="ag-courses-item_date-box">
-          Start:
-         
-        </div>
+       
       </a>
     </div>
 
@@ -43,10 +35,7 @@ function Card() {
           Annual package "Product+UX/UI+Graph designer&#160;2022"
         </div>
 
-        <div class="ag-courses-item_date-box">
-          Start:
-         
-        </div>
+       
       </a>
     </div>
 
@@ -58,11 +47,7 @@ function Card() {
           Graphic Design
         </div>
 
-        <div class="ag-courses-item_date-box">
-          Start:
-         
-
-        </div>
+      
       </a>
     </div>
 
