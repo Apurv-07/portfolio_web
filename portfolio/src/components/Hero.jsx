@@ -2,6 +2,10 @@ import { useEffect, useState } from "react";
 import "./Hero.css";
 import Card from "./Card";
 import SampleSvg from '../assets/icons/sample.svg';
+import MobileSvg from '../assets/icons/mobile.svg';
+import SeoSvg from '../assets/icons/Seo.svg';
+import DigitalSvg from '../assets/icons/Digital.svg'
+
 
 function Hero() {
   const [current, setCurrent] = useState(0);
@@ -28,6 +32,12 @@ function Hero() {
 
   return (
     <>
+    {/* <div style={{display:'flex'}}> */}
+    <Card title={"Web Development"} svg={SampleSvg} />
+      <Card title={"SEO"} svg={SeoSvg}/>
+      <Card title={"Mobile Application"} svg={MobileSvg} />
+      <Card title={"Digital Marketin"} svg={DigitalSvg} />
+      {/* </div> */}
       <div
         className={`slider-bg ${animate ? "animate" : ""}`}
         style={{
@@ -60,9 +70,7 @@ function Hero() {
           ></div>
         ))}
       </div>
-      <Card title={"Web Development"} svg={SampleSvg} />
-      <Card title={"SEO"} svg={SampleSvg}/>
-      <Card title={"Mobile application"} svg={SampleSvg}/>
+      
     </>
   );
 }
