@@ -1,30 +1,12 @@
 import React from 'react';
+import Card from './Card';
 import './Hero.css';
-function Hero(){
-  return
-  <>
-  <div className='card'>
 
-    <div>
-      <h1>WEBdevlpment</h1>
-    </div>
-
-  </div>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-  </>
-}
-
-
+function Hero() {
+  return(
+    <>
+    <Card/>
+    </>
+  );
+  }
 export default Hero;

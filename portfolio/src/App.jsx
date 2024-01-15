@@ -5,7 +5,6 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
 import About from "./Pages/About-us";
-
 import Hero from './components/Hero'
 
 function App() {
