@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
+import Card from "./Card";
+import SampleSvg from '../assets/icons/sample.svg';
 
 function useInterval(callback, delay) {
   const savedCallback = React.useRef();
@@ -75,6 +77,9 @@ function Hero() {
           ></div>
         ))}
       </div>
+      <Card title={"Web Development"} svg={SampleSvg} />
+      <Card title={"SEO"} svg={SampleSvg}/>
+      <Card title={"Mobile application"} svg={SampleSvg}/>
     </>
   );
 }

@@ -6,7 +6,9 @@ import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
 import About from "./Pages/About-us";
 
-import Hero from './components/Hero'
+import Hero from './components/Hero';
+import Card from "./components/Card";
+
 
 function App() {
   return (
