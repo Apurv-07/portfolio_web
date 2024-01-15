@@ -66,29 +66,13 @@ function Card() {
 
         <div class="ag-courses-item_date-box">
           Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+         
+         
         </div>
       </a>
     </div>
 
-    {/* <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          Motion Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            30.11.2022
-          </span>
-        </div>
-      </a>
-    </div> */}
+   
 
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
@@ -110,27 +94,10 @@ function Card() {
       </a>
     </div>
 
-    {/* <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div> */}
-
-        {/* <div class="ag-courses-item_title">
-          Interior Design
-        </div> */}
-
-        {/* <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            31.10.2022
-          </span>
-        </div> */}
-      {/* </a/> */}
-    {/* </div> */}
+   
 
   </div>
 </div> 
-
-
     </div>
   )
 }
