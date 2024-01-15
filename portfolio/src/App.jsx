@@ -6,6 +6,8 @@ import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
 import About from "./Pages/About-us";
 
+import Hero from './components/Hero'
+
 function App() {
   return (
     <>
@@ -17,8 +19,9 @@ function App() {
           <Route path="/portfolio" Component={Portfolio} />
           <Route path="/about-us" Component={About} />
         </Routes>
-        <h1>Hello</h1>
-        <h2>Mani</h2>
+        
+        <Hero />
+   
       </BrowserRouter>
     </>
   );
