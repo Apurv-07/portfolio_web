@@ -19,6 +19,9 @@
 .mob-links-container .mob-links {
     display: none;
 }
+.navbar-container .active {
+    color: green;
+}
 
 @media only screen and (max-width: 600px) {
     .navbar-container ul {
