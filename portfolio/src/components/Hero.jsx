@@ -1,26 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Hero.css";
 import Card from "./Card";
 import SampleSvg from '../assets/icons/sample.svg';
-
-function useInterval(callback, delay) {
-  const savedCallback = React.useRef();
-
-  useEffect(() => {
-    savedCallback.current = callback;
-  }, [callback]);
-
-  useEffect(() => {
-    function tick() {
-      savedCallback.current();
-    }
-
-    if (delay !== null) {
-      const id = setInterval(tick, delay);
-      return () => clearInterval(id);
-    }
-  }, [delay]);
-}
 
 function Hero() {
   const [current, setCurrent] = useState(0);
