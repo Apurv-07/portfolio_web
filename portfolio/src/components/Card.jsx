@@ -15,9 +15,7 @@ function Card() {
 
         <div class="ag-courses-item_date-box">
           Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+          
         </div>
       </a>
     </div>
