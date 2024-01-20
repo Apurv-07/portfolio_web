@@ -11,7 +11,7 @@ const Nav = () => {
         <div className="logo">
           <h1>My logo</h1>
         </div>
-        <button onClick={() => setShowNav(!showNav)}>Click</button>
+        <div>
         <ul>
           <Link to="/" className={location==='/' ? 'active' : ''}>
             <li>Home</li>
@@ -22,10 +22,21 @@ const Nav = () => {
           <Link to="/portfolio" className={location==='/portfolio' ? 'active' : ''}>
             <li>Portfolio</li>
           </Link>
-          <Link to="/contact" className={location==='/contact' ? 'active' : ''}>
-            <li>Contact us</li>
+          <Link to="/services" className={location==='/services' ? 'active' : ''}>
+            <li>Our services</li>
           </Link>
         </ul>
+        </div>
+        <div className='btn-container'>
+          <div style={{display: 'flex', gap: '10px'}}>
+            <div className='client-support'>
+              <button>Client Support</button>
+              <p style={{textAlign:'center'}}>9304945343</p>
+            </div>
+        <button className='btn-contact' onClick={()=>{}}>Contact us</button>
+          </div>
+        <div>
+        <button className='button' onClick={() => setShowNav(!showNav)}>Click</button>
         <div className="mob-links-container">
             {showNav && <ul className='mob-links'>
             <Link to="/" className={location==='/' ? 'active' : ''}>
@@ -41,6 +52,8 @@ const Nav = () => {
               <li>Contact us</li>
             </Link>
           </ul>}
+        </div>
+        </div>
         </div>
       </div>
     </div>

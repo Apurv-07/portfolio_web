@@ -12,7 +12,7 @@
     display: flex;
     gap: 20px;
 }
-.navbar-container button {
+.navbar-container .button {
     display: none;
     margin-left: auto;
 }
@@ -21,6 +21,12 @@
 }
 .navbar-container .active {
     color: green;
+}
+.btn-contact {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -34,8 +40,13 @@
         width: 100%;
         left: 0px;
         background: orange;
+        z-index: 100;
     }
-    .navbar-container button {
+    .navbar-container .button {
         display: block;
+    }
+    .btn-container {
+        display: flex;
+        gap: 20px;
     }
 }
