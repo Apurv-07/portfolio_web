@@ -5,7 +5,6 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
 import About from "./Pages/About-us";
-
 import Hero from './components/Hero';
 import Card from "./components/Card";
 
@@ -21,7 +20,7 @@ function App() {
           <Route path="/portfolio" Component={Portfolio} />
           <Route path="/about-us" Component={About} />
         </Routes>
-        
+        <About-us/>
         <Hero />
    
       </BrowserRouter>

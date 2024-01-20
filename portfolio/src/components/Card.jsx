@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-function Card({ title , svg}) {
+function Card({ title ,svg}) {
     return (
         <div>
             <div class="ag-format-container">
@@ -11,8 +11,9 @@ function Card({ title , svg}) {
                             <div class="ag-courses-item_bg"></div>
 
                             <div class="ag-courses-item_title">
-                                {title}
+                                {title}   
                             </div>
+                           
                             <img src={svg} />
                         </a>
                     </div>
